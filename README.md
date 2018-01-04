@@ -34,6 +34,7 @@ Deviations from paper:
 
 
 # Usage 
+Example: ```python train.py img.png```
 ```
 usage: train.py [-h] [--num_batches NUM_BATCHES] [--crop CROP] [--lr LR]
                 [--factor FACTOR] [--img IMG]
