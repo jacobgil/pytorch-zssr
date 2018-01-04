@@ -25,9 +25,9 @@ Pairs of high resolution and low resolution patches are sampled from the image, 
 
 
 TODO:
-- Implement augmentation using the "Geometric self ensemble" mentioned in the paper.
+- Implement additional augmentation using the "Geometric self ensemble" mentioned in the paper.
 - Implement gradual increase of the super resolution factor as described in the paper.
-- Support for arbitrary kernel estimation and sampling with arbitrary kernels.  The current implementations interpolates the images bicubic interpolation.
+- Support for arbitrary kernel estimation and sampling with arbitrary kernels.  The current implementation interpolates the images bicubic interpolation.
 
 Deviations from paper:
 - Instead of fitting  the loss and analyzing it's standard deviation, the network is trained for a constant number of batches.
