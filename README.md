@@ -1,4 +1,4 @@
-# PyTorch implementation of  "Zero-Shot" Super-Resolution using Deep Internal Learning
+# Unofficial PyTorch implementation of  "Zero-Shot" Super-Resolution using Deep Internal Learning
 
 Unofficial Implementation of *1712.06087 "Zero-Shot" Super-Resolution using Deep Internal Learning by Assaf Shocher, Nadav Cohen, Michal Irani.*
  
