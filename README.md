@@ -31,3 +31,19 @@ TODO:
 
 Deviations from paper:
 - Instead of fitting  the loss and analyzing it's standard deviation, the network is trained for a constant number of batches.
+
+
+# Usage 
+```
+usage: train.py [-h] [--num_batches NUM_BATCHES] [--crop CROP] [--lr LR]
+                [--factor FACTOR] [--img IMG]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --num_batches NUM_BATCHES
+                        Number of batches to run
+  --crop CROP           Random crop size
+  --lr LR               Base learning rate for Adam
+  --factor FACTOR       Interpolation factor.
+  --img IMG             Path to input img
+``
