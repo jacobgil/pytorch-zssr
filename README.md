@@ -12,6 +12,7 @@ Paper: https://arxiv.org/abs/1712.06087
 
 This trains a deep neural network to perform super resolution using a single image.
 
+The network is not trained on additional images, and only uses information from within the target image.
 Pairs of high resolution and low resolution patches are sampled from the image, and the network fits their difference.
 
 ![Low resolution](https://github.com/jacobgil/pytorch-zssr/blob/master/examples/kennedy.png?raw=true)
@@ -30,7 +31,7 @@ TODO:
 - Support for arbitrary kernel estimation and sampling with arbitrary kernels.  The current implementation interpolates the images bicubic interpolation.
 
 Deviations from paper:
-- Instead of fitting  the loss and analyzing it's standard deviation, the network is trained for a constant number of batches.
+- Instead of fitting  the loss and analyzing it's standard deviation, the network is trained for a constant number of batches. The learning rate shrinks x10 every 10,000 iterations.
 
 
 # Usage 
