@@ -35,7 +35,7 @@ Deviations from paper:
 
 
 # Usage 
-Example: ```python train.py img.png```
+Example: ```python train.py --img img.png```
 ```
 usage: train.py [-h] [--num_batches NUM_BATCHES] [--crop CROP] [--lr LR]
                 [--factor FACTOR] [--img IMG]
@@ -48,4 +48,4 @@ optional arguments:
   --lr LR               Base learning rate for Adam
   --factor FACTOR       Interpolation factor.
   --img IMG             Path to input img
-``
+```
